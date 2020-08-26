@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+body{
+background-color: #303030;
+padding: 0% 5%;
+
+}
+
+header, main, footer{
+    background-color: #202020;
+    padding: 1% 1% 1% 1%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 5%;
+    box-shadow: 0 4px 20px 0 #1a1a1a;
+    transition: 0.3s;
+}
+section{
+    background-color: #202020;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+
+}
+
+img{
+    max-width: 100%;
+}
+.card {
+    background-color: #1a1a1a;
+    font-family: Helvetica;
+    column-width: 5%;
+    /* box-shadow: 0 4px 8px 0 #1c1c1c;
+    transition: 0.3s; */
+    margin-bottom: 5.5em;
+    padding: 0% 5%;
+
+}
+
+.top{
+    background-color: #1a1a1a;
+}
+
+header{
+    box-shadow: 0 4px 8px 0 #1c1c1c;
+    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+}
+
+.liste{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+}
+
+.link1{
+    color:white;
+}
+.link1:hover{
+    color: #a7a7a7;
+}
+.link2{
+    color:white;
+}
+.link2:hover{
+    color: #a7a7a7;
+}
+.link3{
+    color:white;
+}
+.link3:hover{
+    color: #a7a7a7;
+}
+
+.myButton {
+    transition: all 0.5s;
+	box-shadow:inset 0px 1px 0px 0px #1a1a1a;
+	background:linear-gradient(to bottom, #1a1a1a 5%, #1a1a1a 100%);
+	background-color:#1a1a1a;
+	border:1px solid #1a1a1a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Helvetica;
+	font-size:13px;
+	padding:6px 12px;
+    text-decoration:none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 2%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #161616 5%, #161616 100%);
+	background-color:#161616;
+}
+.myButton:active {
+	position:relative;
+}
+
+.myButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+.myButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+.myButton:hover span {
+    padding-right: 25px;
+  }
+
+  .myButton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+footer{
+    margin: 0%;
+    box-shadow: 0 4px 20px 0 #1a1a1a;
+    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.zoom {
+    
+    width: 100%;
+    
+    overflow: hidden;
+  }
+  
+.zoom img {
+    width: 100%;
+  height: 100%;
+      transition: all 1s ease-in-out;
+}
+
+  .zoom:hover img{
+    transform: scale(1.5);
+    
+  }
+
+  .moremargins{
+      margin: 1% 1% 1% 1%;
+  }
